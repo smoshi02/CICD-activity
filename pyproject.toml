@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "student-information"
+version = "1.0.0"
+description = "A simple student information program"
+requires-python = ">=3.8"
+
+[tool.setuptools]
+py-modules = ["main"]
